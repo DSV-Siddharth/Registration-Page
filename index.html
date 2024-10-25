@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="full-page">
+        <!-- <p>nav bar code</p> -->
+        <div class="navbar">
+            <div>
+                <a href="#">REGISTER HERE</a>
+                <!-- <p>this is for the logo you can a image</p> -->
+            </div>
+            <nav>
+                <ul id='menuItems'>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><button>Login</button>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <p>nav bar coding is done</p> -->
+             <!-- <p>now styling for nav bar</p> -->
+        </div>
+
+        <div id='login-form' class='login-page'>
+
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                </div>
+                <button
+                    type='button'onclick='login()' class="toggle-btn">Log in</button>
+                    <button
+                    type='button'onclick='register()' class="toggle-btn">Register</button>
+            </div>
+        </div>
+            <!-- <p>creating login form</p> -->
+             
+
+      
+        <!-- <p>creating thr registration form</p> -->
+
+        <div>
+            <form
+        id="register" class='input-group-register'>
+        <input type="text" class="input-field" placeholder="First Name" required>
+        <input type="text" class="input-field" placeholder="Last Name" required>
+        <input type="email" class="input-field" placeholder="Email Id" required>
+        <input type="password" class="input-field" placeholder="Enter password" required>
+        <input type="password" class="input-field" placeholder="confirm password" required>
+        <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+        <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+
+</div>
+
+    
+    </div>
+
+</body>
+</html>
